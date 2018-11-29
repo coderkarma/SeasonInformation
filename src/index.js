@@ -12,7 +12,6 @@ class App extends React.Component {
     );
   }
 
-  // react says we have to define render!!
   render() {
     if (this.state.errorMessage && !this.state.lat) {
       return <div>Error: {this.state.errorMessage}</div>;
